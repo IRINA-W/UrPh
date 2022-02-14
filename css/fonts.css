@@ -1,30 +1,10 @@
-/* @font-face {
-    font-family: 'Gilroy';
-    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
-        url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
-        url('../fonts/Gilroy-ExtraBold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: local('Gilroy Light'), local('Gilroy-Light'),
-        url('../fonts/Gilroy-Light.woff2') format('woff2'),
-        url('../fonts/Gilroy-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-} */
-
 @font-face {
     font-family: 'Comic';
     src: local('Comic Sans MS'), local('ComicSansMS'),
         url('../fonts/ComicSansMS.woff2') format('woff2'),
         url('../fonts/ComicSansMS.woff') format('woff');
     font-weight: normal;
-    /* font-style: normal; */
+    font-style: normal;
     font-display: swap;
 }
 
@@ -38,33 +18,4 @@
     font-display: swap;
 }
 
-/* @font-face {
-    font-family: 'Times New Roman Cyr';
-    src: local('Times New Roman Cyr Bold'), local('TimesNRCyrMT-Bold'),
-        url('TimesNRCyrMT-Bold.woff2') format('woff2'),
-        url('TimesNRCyrMT-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-} */
-
-/* @font-face {
-    font-family: 'Times';
-    src: local('Times New Roman Cyr Italic'), local('TimesNRCyrMT-Inclined'),
-        url('../fonts/TimesNRCyrMT-Inclined.woff2') format('woff2'),
-        url('../fonts/TimesNRCyrMT-Inclined.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-} */
-
-/* @font-face {
-    font-family: 'Times New Roman Cyr';
-    src: local('Times New Roman Cyr'), local('TimesNRCyrMT'),
-        url('TimesNRCyrMT.woff2') format('woff2'),
-        url('TimesNRCyrMT.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-} */
 

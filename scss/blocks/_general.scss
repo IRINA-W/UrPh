@@ -3,203 +3,72 @@ html {
 	font-family: 'Comic', sans-serif;
 	scroll-behavior: smooth;
 }
-body {
-	// background-color: #efb2f8; 
-	/*#d598de;*//*rgba(129, 45, 211, 1)*/
-	// background: linear-gradient(135deg, #fcecfc 0%,#fba6e1 59%,#ff7cd8 99%);
-	// font-size: 2rem;
-	// font-style: italic;
-	// color: #000;
-}
 
-nav,
-section {
-	// margin: 1rem 0 7rem;
-	// padding: 1rem 0 7rem;
-	// height: 100%;
-	// margin-bottom: -3rem;
-}
 section:nth-child(even) {
-	// background-color: rgba(153, 153, 153, 0.3);
-	// background-color: rgba(102, 102, 102, 0.2);
-
 	background-color: rgba(102, 102, 102, 0.5);
-
 }
 section:nth-child(odd) {
-	// background-color: rgba(153, 153, 153, 0.3);
-
 	background-color: rgba(85, 238, 0, 0.5);
-	// background-color: #d598de;
-	// background-color: rgba(153, 153, 153, 0.5);
-	// background-color: #ffffff80;
-	// background-color: #99999980;
-
-	// background: url('../img/bg.webp') 50% 10% / cover no-repeat fixed;
-	// background-attachment: fixed;
+	// background: url('../img/bg.jpg') 50% 50% / cover no-repeat fixed;
 }
-// h2, h3 {
-// 	// font-weight: 500;
-// 	// font-size: 2.5rem;
-// 	text-align: center;
-// 	// margin: 0 auto 3rem;
-// 	// margin-bottom: 3rem;
-// 	// color: #fff;
-// }
 
 .wrapper {
 	width: 100%;
 	min-height: 100%;
 	overflow: hidden;
-
-	// background-color: rgba(102, 102, 102, 0.5);
-	// background-color: #e699e6;
-	// background: linear-gradient(135deg, #fcc2ec 0%,#fba6e1 59%,#ff7cd8 99%);
-	// background: linear-gradient(45deg, #f2ccf2 0%,#ecb3ec 59%,#e699e6 99%);
-	// background: linear-gradient(135deg, #f2ccf2, #e699e6);
-	// background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(234,98,232,0.38) 62%,rgba(234,98,232,0) 100%);
-	// #f2ccf2; #ecb3ec; #e699e6;#fcecfc
 }
+
+.content-shadow {}
+
 .content {
 	max-width: 1200px;
 	width: 90%;
 	margin: 0 auto;
-	// margin: 0 7rem;
-	// line-height: 3.5rem;
 	line-height: 3rem;
 	font-size: 2rem;
 	font-weight: 400;
 	color: $fc;
 	padding: 5rem 0;
-	// padding: 1rem 0 7rem;
 }
-// .content-shadow {
-// background: rgba(0,0,0,0.3);
-// 	width: 100%;
-// }
 
 .container {
 	width: 90%;
 	margin: 0 auto;
 }
 
-// #up {
-// 	height: 100vh;
-// }
-// .wrapper__content {
-// 	max-width: 1200px;
-// 	width: 90%;
-// 	margin: 0 auto;
-// 	line-height: 3.5rem;
-// 	font-size: 2rem;
-// 	color: #000;
-
-// 	// text-align: center;
-// }
-// .wrapper__container {
-// 	width: 90%;
-// 	margin: 0 auto;
-// }
 .title {
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 5rem;
-	// font-weight: 700;
-	// border-bottom: 1px solid $fc-tit;
-	// border-right: 1px solid $fc-tit;
-	// border: 1px solid $fc-tit;
-	// height: 5rem;
-	// max-width: 30rem;
-	// transform: skew(-30deg);
 }
 .subtitle {
 	font-style: italic;
 	text-align: center;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
-// .panel {
-// 	background-color: #c179cc;
-// 	transform: skew(-30deg);
-// 	margin-bottom: 1rem;
-// }
+
 .tab {
 	display: flex;
 	justify-content: space-between;
 	height: 5rem;
-	// text-transform: uppercase;
-	// font-family: 'Gilroy', sans-serif;
-	// font-weight: 700;
-	// font-style: italic;
 	line-height: 5rem;
-
 	padding: 0 5rem;
-	background-color: $bgc;
-
-	// border: 2px solid $bgc;
-
-	transform: skew(-30deg);
-	// margin-bottom: -1rem;
-	// margin-bottom: 1rem;
-	transition: all 0.5s;
-
-	// box-shadow: 0 0 15px $fc-tit;
-	// box-shadow: 1rem 1rem 1rem 0.5rem;
-	box-shadow: 1rem 1rem 1rem 0.5rem $fc-act;
-	// box-shadow: 1rem 1rem 1rem 0.5rem #666;
 	margin-bottom: 2rem;
-	// &:nth-child(1n) {
-	// 	margin-bottom: -5rem;
-	// }
+	background-color: $bgc;
+	transform: skew(-30deg);
+	transition: all 0.5s;
+	box-shadow: 1rem 1rem 1rem 0.5rem $fc-act;
 	&:hover {
 		color: $fc-act;
 		cursor: pointer;
 	}
 	&_active {
 		color: $fc-act;
-		// margin-bottom: 0;
 	}
 	& span {
 		transform: skewX(30deg);
-		// font-size: 3rem;
-		// line-height: 5rem;
 	}
 	&__symb {
 		font-size: 3rem;
-
-		// line-height: 5rem;
 	}
 }
-// .tab:last-child {
-// 	margin-bottom: 0;
-// }
-// .tab:hover {
-// 	color: #fff;
-// 	cursor: pointer;
-// }
-// .tab span {
-// 	transform: skewX(30deg);
-// }
-// .symb {
-// 	font-size: 3rem;
-// 	// color: #666;
-// }
-// .active {
-// 	color: $fc-act;
-// 	margin-bottom: 0;
-// }
-
-// .btn {
-// 	width: 4rem;
-// 	height: 4rem;
-// 	font-size: 5rem;
-// 	line-height: 4rem;
-// 	// font-weight: 100;
-// 	cursor: pointer;
-// 	background-color: inherit;
-// 	color: #c179cc;
-// 	transition: all 0.5s;
-// }
-// .btn:hover {
-// 	color: #fff;
-// 	transition: all 0.5s;
-// }

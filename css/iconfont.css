@@ -1,8 +1,6 @@
 @font-face {
   font-family: 'icon';
-  /* src:  url('fonts/icon.eot?gknw6q'); */
-  src:  /* url('fonts/icon.eot?gknw6q#iefix') format('embedded-opentype'),
-    url('fonts/icon.ttf?gknw6q') format('truetype'), */
+  src:
     url('../iconfont/icon.woff?gknw6q') format('woff'),
     url('../iconfont/icon.svg?gknw6q#icon') format('svg');
   font-weight: normal;
@@ -12,7 +10,6 @@
 
 [class^="icon-"]::before, 
 [class*=" icon-"]::before {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icon' !important;
   speak: never;
   font-style: normal;
@@ -20,28 +17,21 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  font-size: 5rem;
+  margin-right: 1rem;
 
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-insta:before {
+.icon-insta::before {
   content: "\e900";
-  /* color:  #8134af; */
-  color: #dd2a7b;
-  font-size: 5rem;
-  /* margin-right: 1rem; */
 }
-.icon-teleg:before {
+
+.icon-teleg::before {
   content: "\e901";
-  color: #00bfff;
-  /* color: #4995be; */
-  /* color: #2e4392; */
-  font-size: 5rem;
 }
-.icon-whats:before {
+
+.icon-whats::before {
   content: "\e902";
-  color: #00bb2d;
-  font-size: 5rem;
 }
