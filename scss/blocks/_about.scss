@@ -1,0 +1,111 @@
+.about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap; 
+	// margin-bottom: 5rem;
+	// font-style: italic;
+	line-height: 3.5rem;
+	font-size: 2rem;
+	
+
+	&__photo {
+		width: 20rem;
+		// margin: 0 auto;
+		transform: skew(-10deg);
+		// box-shadow: 1rem 1rem 1rem 0.5rem #666;
+
+		// overflow: hidden;
+		// position: relative;
+		// padding-bottom: 70%;
+
+
+
+		// margin-right: 2rem;
+		// border: 5px inset #fff;
+		//inset
+		// outline: none;
+
+		// width: 20rem;
+		// overflow: hidden;
+		// position: relative;
+		// padding-bottom: 40%;
+
+		& img {
+			max-width: 100%;
+			// display: block;
+			// margin: 0 auto;
+			// height: 100%;
+			// position: absolute;
+			// top: 0;
+			// left: 0;
+			// object-fit: cover;
+			// object-position: 50% 90%;
+		}
+	}
+
+	&__greet {
+		// font-style: italic;
+		// font-size: 2rem;
+		// text-align: center;
+		/* padding: 2rem; */
+		// line-height: 3.7rem;
+	}
+	&__heading {
+		// width: 50rem;
+		width: 52rem;
+
+		// text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		// text-shadow: -0.1px 0 black, 0 0.1px black, 0.1px 0 black, 0 -0.1px black;
+		// text-shadow: 1px 1px 1px#333;
+		// text-shadow: 0.1px 0.1px 0.1px#333;
+		// text-shadow: 0 0 1px #333;
+		// text-shadow: 0 0 3px #FF0000;
+
+		// width: 40rem;
+		// margin: 0 auto;
+		// width: 68rem;
+		// width: 30rem;
+		// width: 47.7rem;
+		// margin: 0 auto;
+		// font-family: Arial, sans-serif;
+
+		font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+		font-style: italic;
+
+		// font-size: 3rem;
+		font-weight: 900;
+		letter-spacing: 0.17rem;
+		color: $fc-tit;
+		margin-bottom: 7rem;
+		// transition: all 5s;
+		&_left {
+			font-size: 4rem;
+			// font-weight: 700;
+			// display: block;
+		}
+		&__devider {
+			width: 45rem;
+			// width: 50rem;
+			// width: 68rem;
+			// width: 48rem;
+			height: 1px;
+			margin: 0 auto;
+			background-color: $fc-tit;
+			// background-color: $fc;
+			// background-color: $fc-act;
+		}
+		&_right {
+			// display: block;
+			font-size: 3rem;
+			float: right;
+			margin-top: -0.3rem;
+			font-weight: 700;
+			// text-align: right;
+		}
+		&_animated {
+			animation: tracking 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+		}
+	}
+}
+

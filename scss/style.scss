@@ -1,0 +1,321 @@
+@import 'base/nullstyle';
+@import 'base/variables';
+
+@import 'blocks/general';
+@import 'blocks/menu';
+
+
+
+// @import 'blocks/about';
+@import 'blocks/aboutGrid';
+
+
+
+@import 'blocks/portfolio';
+@import 'blocks/swiper';
+@import 'blocks/reviews';
+@import 'blocks/price';
+@import 'blocks/pageup';
+@import 'blocks/contacts';
+@import 'blocks/modals';
+
+@import 'base/animation';
+@import 'base/media';
+
+
+
+
+
+// html {
+// 	font-size: 10px;
+// 	font-family: Arial, sans-serif;
+// 	scroll-behavior: smooth;
+// 	// background: linear-gradient(135deg, #fcecfc 0%,#fba6e1 59%,#ff7cd8 99%);
+// }
+// body {
+// 	// background-color: #efb2f8; 
+// 	/*#d598de;*//*rgba(129, 45, 211, 1)*/
+// 	// background: linear-gradient(135deg, #fcecfc 0%,#fba6e1 59%,#ff7cd8 99%);
+// 	// font-size: 2rem;
+// 	// font-style: italic;
+// 	// color: #000;
+// }
+// h2, h3 {
+// 	// font-weight: 700;
+// 	font-size: 2.5rem;
+// 	text-align: center;
+// 	margin: 3rem auto;
+// 	color: #fff;
+// }
+
+// .wrapper {
+// 	width: 100%;
+// 	min-height: 100%;
+// 	overflow: hidden;
+// 	background: linear-gradient(135deg, #fcecfc 0%,#fba6e1 59%,#ff7cd8 99%);
+// }
+// .wrapper__content {
+// 	max-width: 1200px;
+// 	width: 90%;
+// 	margin: 0 auto;
+// 	line-height: 3.5rem;
+// 	font-size: 2rem;
+// 	color: #000;
+
+// 	// text-align: center;
+// }
+// .wrapper__container {
+// 	width: 90%;
+// 	margin: 0 auto;
+// }
+// .title {
+// 	text-transform: uppercase;
+// }
+// .subtitle {
+// 	font-style: italic;
+// }
+// // .panel {
+// // 	background-color: #c179cc;
+// // 	transform: skew(-30deg);
+// // 	margin-bottom: 1rem;
+// // }
+// .tab {
+// 	display: flex;
+// 	justify-content: space-between;
+// 	height: 5rem;
+// 	line-height: 5rem;
+// 	padding: 0 2rem;
+// 	background-color: #bb41ce;/*#c179cc;*/
+// 	transform: skew(-30deg);
+// 	margin-bottom: 1rem;
+// 	transition: all 0.5s;
+// }
+// .tab:hover {
+// 	color: #fff;
+// 	cursor: pointer;
+// }
+// .tab span {
+// 	transform: skewX(30deg);
+// }
+// .symb {
+// 	font-size: 3rem;
+// 	// color: #666;
+// }
+// .active .tab{
+// 	color: #fff;
+// }
+
+// .menu {
+// 	height: 5rem;
+// 	margin: 1rem auto 5rem;
+// 	background-color: #9c27b0;/*#bb41ce;*//*#c179cc;*/
+// 	transform: skew(-30deg);
+// 	// margin-bottom: 1rem;
+// 	&__items {
+// 		display: flex;
+// 	}
+// 	&__item {
+// 		width: 20%;
+// 		height: 5rem;
+// 		line-height: 5rem;
+// 		text-align: center;
+// 		font-size: 1.7rem;
+// 		text-transform: uppercase;
+// 	}
+// 	&__item:hover {
+// 		border: 2px solid #fff;
+// 	}
+// 	&__item span{
+// 		display: inline-block;
+// 		transform: skew(30deg);
+// 	}
+// 	&__item a {
+// 		color: #fff;
+// 	}
+// }
+
+// .about {
+// 	display: flex;
+// 	justify-content: space-evenly;
+// 	align-items: center;
+// 	margin-bottom: 5rem;
+// 	font-style: italic;
+// 	&__photo {
+// 		width: 20rem;
+// 		// margin-right: 2rem;
+// 		transform: skew(-10deg);
+
+// 		// width: 20rem;
+// 		// overflow: hidden;
+// 		// position: relative;
+// 		// padding-bottom: 40%;
+// 	}
+// 	&__photo img {
+// 		width: 100%;
+// 		opacity: 0.5;
+
+// 		// width: 100%;
+// 		// height: 100%;
+// 		// position: absolute;
+// 		// top: 0;
+// 		// left: 0;
+// 		// object-fit: cover;
+// 		// object-position: 50% 50%;
+// 	}
+// 	&__greet {
+// 		// font-style: italic;
+// 		// font-size: 2rem;
+// 		// text-align: center;
+// 		/* padding: 2rem; */
+// 		// line-height: 3.7rem;
+// 	}
+// 	&__heading {
+// 		font-size: 3rem;
+// 		font-weight: 700;
+// 		margin-bottom: 2rem;
+// 	}
+// }
+
+// .price {
+// 	margin-bottom: 5rem;
+// 	&__title {}
+// 	&__item:not(.active) &__descr {
+// 		display: none;
+// 		// transition: all 1s;
+// 	}
+// 	// &__tab {
+// 	// 	display: flex;
+// 	// 	justify-content: space-between;
+// 	// 	height: 5rem;
+// 	// 	line-height: 5rem;
+// 	// 	padding: 0 2rem;
+// 	// }
+// 	// &__tab:hover {
+// 	// 	color: #fff;
+// 	// 	cursor: pointer;
+// 	// }
+// 	// &__tab span {
+// 	// 	transform: skewX(30deg);
+// 	// }
+// 	// &__symb {
+// 	// 	font-size: 3rem;
+// 	// 	// color: #666;
+// 	// }
+// 	&__descr {
+// 		// width: 60%;
+// 		// padding: 0 18px;
+// 		// background-color: white;
+// 		// max-height: 0;
+// 		// overflow: hidden;
+// 		// transition: max-height 0.2s ease-out;
+// 		margin-bottom: 1rem;
+// 		// transition: all 1s;
+// 	}
+// 	&__text {}
+// 	&__subtitle {}
+// }
+
+// .portfolio {
+// 	margin-bottom: 5rem;
+// 	&__title {}
+// 	&__item {}
+// 	&__item:not(.active) &__slider {
+// 		display: none;
+// 	}
+// 	&__tab {}
+// 	&__symb {}
+// 	&__slider {
+// 		display: flex;
+// 		justify-content: center;
+// 		align-items: center;
+// 		margin-bottom: 1rem;
+// 	}
+// 	&__btn {}
+// 	&__container {
+// 		position: relative;
+// 		width: 80%;
+// 		margin: 0 3rem;
+// 		overflow: hidden;
+// 		padding-bottom: 60rem;
+// 	}
+// 	// &__container img
+// 	&__photo {
+// 		// width: 100%;
+// 		// width: 50%;
+// 		// margin: 0 auto;
+// 		// height: 100%;
+// 		position: absolute;
+// 		top: 0;
+// 		left: 50%;
+// 		transform: translateX(-50%);
+// 		// transform: translateY(-50%);
+// 		// object-fit: cover;
+// 		// object-position: 50% 30%;
+// 	}
+// 	&__photo img {
+// 		width: 100%;
+// 	}
+// }
+// .fade {
+// 	animation-name: fade;
+// 	animation-duration: 1.5s;
+// }
+// @keyframes fade {
+// 	from {opacity: .4}
+// 	to {opacity: 1}
+// }
+// @keyframes fade {
+// 	from {
+// 		// opacity: 0.4;
+// 		width: 0rem;
+// 		// height: 20rem;
+// 	}
+// 	to {
+// 		// opacity: 1;
+// 		width: 40.3rem;
+// 		// width: 100%;
+// 		// height: 60.5rem;
+// 	}
+// }
+// img {
+// 	width: 100%;
+// 	height: 100%;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	object-fit: cover;
+// 	object-position: 50% 50%; /*значения по умолчанию */
+// }                            /* и для родителя: 
+									// 	{
+									// 	margin: 0 auto;
+									// 	width: 70%;
+									// 	overflow: hidden;
+									// 	position: relative;
+									// 	padding-bottom: 40%;
+									// }*/
+
+.title {
+}
+.tab {
+}
+.symb {
+}
+// .btn {
+// 	width: 4rem;
+// 	height: 4rem;
+// 	font-size: 5rem;
+// 	line-height: 4rem;
+// 	// font-weight: 100;
+// 	cursor: pointer;
+// 	background-color: inherit;
+// 	color: #c179cc;
+// 	transition: all 0.5s;
+// }
+// .btn:hover {
+// 	color: #fff;
+// 	transition: all 0.5s;
+// }
+.prev {
+}
+.next {
+}

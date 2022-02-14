@@ -1,0 +1,136 @@
+// .pageup__img {
+// 	position: fixed;
+// 	bottom: 10px;
+// 	right: 100px;
+// }
+
+.pageup {
+	width: 35px;
+	height: 28px;
+	position: fixed;
+	bottom: 10px;
+	right: 9px;
+	opacity: 0.6;
+	z-index: 9;
+	&:not(.active) {
+		display: none;
+	}
+	& span {
+		display: inline-block;
+		height: 4px;
+		background-color: $fc-act;
+	}
+	&_lg {
+		width: 100%;
+		& span {
+			width: 50%;
+		}
+	}
+	&_lg_left {
+		transform: translateX(3.5px) rotate(-35deg) skew(-35deg);
+	}
+	&_lg_right {
+		transform: rotate(35deg) skew(35deg);
+	}
+	&_sm {
+		width: 70%;
+		margin: -4px auto 0;
+		& span {
+			width: 50%;
+		}
+	}
+	&_sm_left {
+		transform: translateX(3px) rotate(-35deg) skew(-35deg);
+	}
+	&_sm_right {
+		transform: /*translateX(1px)*/ rotate(35deg) skew(35deg);
+	}
+}
+
+
+// .pageup {
+// 	position: fixed;
+// 	bottom: 10px;
+// 	right: 4.5px;
+
+// 	// width: 40px;
+// 	// height: 30px;
+
+// 	line-height: 8px;
+// 	text-align: center;
+
+// 	// width: 4rem;
+// 	// height: 4rem;
+
+// 	// background-color: $bgc;
+// 	// border-radius: 50%;
+// 	// opacity: 0.5;
+// 	&:not(.active) {
+// 		display: none;
+// 	}
+// 	& span {
+// 		display: inline-block;
+// 		// width: 50%;
+// 		height: 4px;
+// 		background-color: #fff;
+// 		// margin-bottom: 5px;
+// 		// border-radius: 20%;
+// 		opacity: 0.6;
+// 	}
+// 	&_lg {
+// 		width: 37px;
+// 		// width: 100%;
+// 		// margin: 0 auto;
+// 		& span {
+// 			width: 50%;
+// 		}
+// 		// width: 50px;
+// 		&_left {
+// 			transform: translateX(2.6px) rotate(-35deg) skew(-35deg);
+// 			// transform: skew(-30deg);
+// 		}
+// 		&_right {
+// 			transform: translateX(-2.6px) rotate(35deg) skew(35deg);
+// 		}
+// 	}
+// 	&_sm {
+// 		width: 33px;
+// 		// width: 80%;
+// 		// margin: 0 auto;
+// 		& span {
+// 			width: 35%;
+// 		}
+// 		// width: 50px;
+// 		&_left {
+// 			transform: translateX(2px) rotate(-35deg) skew(-35deg);
+// 			// transform: skew(-30deg);
+// 		}
+// 		&_right {
+// 			transform: /*translateX(0px)*/ rotate(35deg) skew(35deg);
+// 		}
+// 	}
+// 	// &_left {
+// 	// 	// transform: rotate(-35deg);
+// 	// }
+// 	// &_right {
+// 	// 	transform: translateX(-3.7px) rotate(35deg);
+
+// 	// }
+// 	img {
+// 		width: 100%;
+// 	}
+// }
+
+// .arrow-pageup {
+// 	position: fixed;
+// 	bottom: 20px;
+// 	right: 20px;
+// 	opacity: 0.5;
+
+// 	width: 0;
+// 	height: 0;
+// 	border-left: 15px solid transparent;
+// 	border-right: 15px solid transparent;
+// 	// border-bottom: 50px solid $bgc;
+// 	border-bottom: 45px solid $fc-act;
+// }

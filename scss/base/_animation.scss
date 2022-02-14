@@ -1,0 +1,101 @@
+// .fade {
+// 	animation-name: fade;
+// 	animation-duration: 1.5s;
+// }
+
+
+
+
+
+// @keyframes moveUp {
+// 	from {
+// 		top: 100%;
+// 	}
+// 	to {
+// 		top: 0;
+// 	}
+// }
+
+// modals
+@keyframes fromTop {
+	from {
+		top: -100%;
+	}
+	to {
+		top: 50%;
+	}
+}
+
+// @keyframes toTop {
+// 	from {
+// 		top: 50%;
+// 	}
+// 	to {
+// 		top: -100%;
+// 	}
+// }
+
+// overlay
+@keyframes fadeIn {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+// @keyframes fadeOut {
+// 	from {
+// 		opacity: 1;
+// 	}
+// 	to {
+// 		opacity: 0.4;
+// 	}
+// }
+
+// @keyframes fromRight {
+// 	from {
+// 		left: 100%;
+// 	}
+// 	to {
+// 		left: 0;
+// 	}
+// }
+
+// @keyframes fromLeft {
+// 	from {
+// 		right: 100%;
+// 	}
+// 	to {
+// 		right: 0;
+// 	}
+// }
+
+// reviews
+@keyframes moveLeft {
+	from {
+		left: 100%;
+	}
+	to {
+		left: 0;
+	}
+}
+
+// @keyframes tracking {
+// 	0% {
+// 		letter-spacing: 2rem;
+// 		// -webkit-transform: translateZ(400px);
+// 		transform: translateZ(40rem);
+// 		// opacity: 0;
+// 	}
+// 	40% {
+// 		// opacity: 0.6;
+// 	}
+// 	100% {
+// 		// -webkit-transform: translateZ(0);
+// 		transform: translateZ(0);
+// 		// opacity: 1;
+// 	}
+// }
+
